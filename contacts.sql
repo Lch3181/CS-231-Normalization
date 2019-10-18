@@ -7,7 +7,6 @@ CREATE DATABASE Normalization1;
 use Normalization1;
 
 CREATE TABLE my_contacts (
-    UID int(11) unsigned primary key not null auto_increment,
   last_name varchar(30),
   first_name varchar(20),
   email varchar(50),
