@@ -19,7 +19,7 @@ CREATE TABLE my_contacts (
   seeking varchar(100)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-INSERT INTO my_contacts (last_name,first_name,email,gender,birthday,profession,location,status,interests,seeking) VALUES ('Anderson','Jillian','jill_anderson@breakneckpizza.com','F','1980-09-05','Technical Writer','Palo Alto, CA','single','kayaking, reptiles','relationship, friends');
+INSERT INTO my_contacts (last_name,first_name,email,gender,birthday,profession,location,status,interests,seeking) VALUES ('Anderson','Jillian','jill_anderson@ \nbreakneckpizza.com','F','1980-09-05','Technical Writer','Palo Alto, CA','single','kayaking, reptiles','relationship, friends');
 INSERT INTO my_contacts (last_name,first_name,email,gender,birthday,profession,location,status,interests,seeking) VALUES ('Kenton','Leo','lkenton@starbuzzcoffee.com','M','1974-01-10','Manager','San Francisco, CA','divorced','women','women to date');
 INSERT INTO my_contacts (last_name,first_name,email,gender,birthday,profession,location,status,interests,seeking) VALUES ('McGavin','Darrin','captainlove@headfirsttheater.com','M','1966-01-23','Cruise Ship Captain','San Diego, CA','single','sailing, fishing, yachting','women for casual relationships');
 INSERT INTO my_contacts (last_name,first_name,email,gender,birthday,profession,location,status,interests,seeking) VALUES ('Franklin','Joe','joe_franklin@leapinlimos.com','M','1977-04-28','Software Sales','Dallas, TX','married','fishing, drinking','new job');
