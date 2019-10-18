@@ -19,3 +19,5 @@ create_profession.sql
 create_seeking.sql
 
 create_status.sql
+
+create_email.sql
